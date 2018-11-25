@@ -1,0 +1,16 @@
+{
+  "name": "trapmap",
+  "version": "1.0.0",
+  "description": "Web application for accessibility traps mapping",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "author": "Nigel Lima",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
